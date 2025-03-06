@@ -1,5 +1,9 @@
 
 # Automation Scripts
+![Bash](https://img.shields.io/badge/Bash-5.0-blue)
+![Linux](https://img.shields.io/badge/Linux-Ubuntu-success)
+![License](https://img.shields.io/badge/License-MIT-green)
+
 A collection of Bash scripts for automating various tasks in Linux environments.
 
 ---

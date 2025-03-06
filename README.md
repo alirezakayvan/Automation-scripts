@@ -5,7 +5,7 @@ A collection of Bash scripts for automating various tasks in Linux environments.
 ---
 
 ##  Scripts Included
-1. **backup.sh:** Creates a compressed backup of a specified directory.
+1. **[backup.sh](./backup.sh):** Creates a compressed backup of a specified directory.
    - **Explanation:**
      - **SOURCE_DIR:** Path of the directory to backup.  
      - **BACKUP_DIR:** Path to store the backup file.  
@@ -13,13 +13,13 @@ A collection of Bash scripts for automating various tasks in Linux environments.
      - **mkdir -p:** Ensures backup directory exists.  
      - **tar -czf:** Creates a compressed tar.gz file.
 
-2. **monitor.sh:** Displays CPU, memory, and disk usage.
+2. **[monitor.sh](./monitor.sh):** Displays CPU, memory, and disk usage.
    - **Explanation:**
      - **CPU Usage:** Uses `top` and `awk` to get CPU usage percentage.  
      - **Memory Usage:** Displays used and total memory using `free` command.  
      - **Disk Usage:** Shows disk usage for all mounted drives.
 
-3. **update_system.sh:** Updates the system and sends log to email.
+3. **[update_system.sh](./update_system.sh):** Updates the system and sends log to email.
    - **Explanation:**
      - **LOG_FILE:** Temporary file to store update logs.  
      - **apt-get:** Updates and upgrades packages.  
@@ -81,6 +81,11 @@ A collection of Bash scripts for automating various tasks in Linux environments.
 - Ensure you have write permissions for backup directories.
 - Modify paths in scripts according to your environment.
 - Test each script in a non-critical environment first.
+
+---
+
+## Contributing
+Contributions are welcome! Please open an issue or submit a pull request.
 
 ---
 

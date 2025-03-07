@@ -1,0 +1,29 @@
+name: Run Bash Scripts
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  run-scripts:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Make scripts executable
+        run: chmod +x *.sh
+
+      - name: Run backup.sh
+        run: ./backup.sh
+
+      - name: Run monitor.sh
+        run: ./monitor.sh
+
+      - name: Run update_system.sh
+        run: ./update_system.sh

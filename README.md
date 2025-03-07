@@ -22,6 +22,7 @@ Visit the project website: [Automation Scripts](https://alirezakayvan.github.io/
 ![Contributors](https://img.shields.io/github/contributors/alirezakayvan/Automation-scripts)
 ![Last Commit](https://img.shields.io/github/last-commit/alirezakayvan/Automation-scripts)
 ![Issues](https://img.shields.io/github/issues/alirezakayvan/Automation-scripts)
+[![Pull Requests](https://img.shields.io/github/issues-pr/alirezakayvan/Automation-scripts)](https://github.com/alirezakayvan/Automation-scripts/pulls)
 
 ---
 

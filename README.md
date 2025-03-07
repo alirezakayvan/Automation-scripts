@@ -1,4 +1,3 @@
-
 # Automation Scripts
 ![Bash](https://img.shields.io/badge/Bash-5.0-blue)
 ![Linux](https://img.shields.io/badge/Linux-Ubuntu-success)
@@ -8,43 +7,37 @@ A collection of Bash scripts for automating various tasks in Linux environments.
 
 ---
 
-##  Scripts Included
+## 🌐 Website
+Visit the project website: [Automation Scripts](https://alirezakayvan.github.io/Automation-scripts/)
+
+---
+
+## 📊 Project Status
+![Last Commit](https://img.shields.io/github/last-commit/alirezakayvan/Automation-scripts)
+![Issues](https://img.shields.io/github/issues/alirezakayvan/Automation-scripts)
+![Contributors](https://img.shields.io/github/contributors/alirezakayvan/Automation-scripts)
+![Stars](https://img.shields.io/github/stars/alirezakayvan/Automation-scripts?style=social)
+
+---
+
+## 🛠 Scripts Included
 1. **[backup.sh](./backup.sh):** Creates a compressed backup of a specified directory.
-   - **Explanation:**
-     - **SOURCE_DIR:** Path of the directory to backup.  
-     - **BACKUP_DIR:** Path to store the backup file.  
-     - **BACKUP_FILE:** Filename with date for easy identification.  
-     - **mkdir -p:** Ensures backup directory exists.  
-     - **tar -czf:** Creates a compressed tar.gz file.
-
 2. **[monitor.sh](./monitor.sh):** Displays CPU, memory, and disk usage.
-   - **Explanation:**
-     - **CPU Usage:** Uses `top` and `awk` to get CPU usage percentage.  
-     - **Memory Usage:** Displays used and total memory using `free` command.  
-     - **Disk Usage:** Shows disk usage for all mounted drives.
-
 3. **[update_system.sh](./update_system.sh):** Updates the system and sends log to email.
-   - **Explanation:**
-     - **LOG_FILE:** Temporary file to store update logs.  
-     - **apt-get:** Updates and upgrades packages.  
-     - **mail:** Sends the log to specified email (ensure `mail` is configured).  
 
 ---
 
-## Requirements
-- **Operating System:** Linux
-- **Shell:** Bash
-- **Commands:**
-  - `tar` for backup script.
-  - `top`, `free`, and `df` for monitoring script.
-  - `apt-get` for update script (Debian/Ubuntu based systems).
-  - `mail` command for sending email notifications (requires configuration).
-- **Permissions:**
-  - Sudo access for `update_system.sh` script.
+## ⚙️ Requirements
+- **Operating System:** Linux  
+- **Shell:** Bash  
+- **Packages:**
+   - `mailutils` for email notifications.  
+   - `tar` for backup script.  
+   - `top`, `free`, and `df` for monitoring script.  
 
 ---
 
-## How to Use
+## 🚀 How to Use
 1. **Clone the repository:**
    ```bash
    git clone https://github.com/alirezakayvan/automation-scripts.git
@@ -72,8 +65,8 @@ A collection of Bash scripts for automating various tasks in Linux environments.
 
 ---
 
-## Email Configuration (for `update_system.sh`)
-- Make sure the `mail` command is installed and configured.
+## 📧 Email Configuration
+- Install `mailutils`:
   ```bash
   sudo apt-get install mailutils
   ```
@@ -81,17 +74,17 @@ A collection of Bash scripts for automating various tasks in Linux environments.
 
 ---
 
-## Notes
+## 🤝 Contributing
+Contributions are welcome!  
+Please see the [Contributing](https://github.com/alirezakayvan/Automation-scripts/wiki/Contributing) page for guidelines.
+
+---
+
+## 📝 Notes
 - Ensure you have write permissions for backup directories.
 - Modify paths in scripts according to your environment.
 - Test each script in a non-critical environment first.
 
 ---
 
-## Contributing
-Contributions are welcome! Please open an issue or submit a pull request.
-
----
-
-## License
-This project is open-source and available under the MIT License.
+## 📄

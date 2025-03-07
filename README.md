@@ -19,7 +19,7 @@ Visit the project website: [Automation Scripts](https://alirezakayvan.github.io/
 ![Issues](https://img.shields.io/github/issues/alirezakayvan/Automation-scripts)
 ![Discussions](https://img.shields.io/badge/Discussions-open-blue)
 ![Contributors](https://img.shields.io/github/contributors/alirezakayvan/Automation-scripts)
-![Stars](https://img.shields.io/github/stars/alirezakayvan/Automation-scripts?style=social)
+![Stars](https://img.shields.io/github/stars/alirezakayvan/Automation-scripts?style=social&cacheSeconds=60)
 
 ---
 

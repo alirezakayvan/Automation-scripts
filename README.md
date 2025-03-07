@@ -13,6 +13,7 @@ Visit the project website: [Automation Scripts](https://alirezakayvan.github.io/
 ---
 
 ## 📊 Project Status
+![Build Status](https://github.com/alirezakayvan/Automation-scripts/actions/workflows/run-scripts.yml/badge.svg)
 ![Last Commit](https://img.shields.io/github/last-commit/alirezakayvan/Automation-scripts)
 ![Issues](https://img.shields.io/github/issues/alirezakayvan/Automation-scripts)
 ![Contributors](https://img.shields.io/github/contributors/alirezakayvan/Automation-scripts)
